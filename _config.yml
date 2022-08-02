@@ -1,0 +1,75 @@
+# Basic
+name:               "ML lab @ CU Denver"
+title:              "as called as Machine Learning Lab"
+description:        "this is a page for Machine Learning lab based in Computer Science and Engineering, University of Colorado Denver."
+
+
+# URL
+url:                http://ml.cse.ucdenver.edu/
+baseurl:             
+#baseurl:            "" #For Root Domain
+permalink:          /:year/:month/:day/:title.html
+
+# Markdown
+markdown:           kramdown
+
+# Highlighter
+highlighter:        rouge
+
+# Navigation
+nav:
+  - name:           "home"
+    href:           "/"
+  - name:           "about"
+    href:           "/about"
+  - name:           "research"
+    href:           "/research"
+  - name:           "people"
+    href:           "/people"
+  - name:           "talks"
+    href:           "/talks"
+  - name:           "news"
+    href:           "/news"
+  - name:           "resources"
+    href:           "/resources"
+
+# Sass
+sass:
+  style:            :compressed
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+  -
+    scope:
+      path:         ""
+      type:         "people"
+    values:
+      layout:       "profile"
+  -
+    scope:
+      path:         ""
+      type:         "research"
+    values:
+      layout:       "research"
+
+
+collections:
+  people:
+    output: true
+    permalink: /people/:title/index.html
+  research:
+    output: true
+    permalink: /research/:title/index.html
+

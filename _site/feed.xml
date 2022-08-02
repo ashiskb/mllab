@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>ML lab @ CU Denver</title>
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>1 paper gets accepted at the IEEE BIBM 2019.</title>
+        <description>&lt;p&gt;Congratulations @javierpastorino for the paper accepted at the Machine Learning and Artificial Intelligence in Bioinformatics and Medical Informatics Workshop at the IEEE BIBM 2019 conference which will be hosted in San Diego! Here is the &lt;a href=&quot;http://scm.ulster.ac.uk/~e10267487/MABM2019/index.html&quot;&gt;Workshop link&lt;/a&gt;.&lt;/p&gt;
+</description>
+				<pubDate>Thu, 03 Oct 2019 00:00:00 -0600</pubDate>
+				<link>http://localhost:4000/2019/10/03/news-Javier-paper-accept.html</link>
+				<guid isPermaLink="true">http://localhost:4000/2019/10/03/news-Javier-paper-accept.html</guid>
+			</item>
+		
+			<item>
+				<title>Ismb2020</title>
+        <description>&lt;p&gt;Here you are&lt;/p&gt;
+
+</description>
+				<pubDate>Mon, 30 Sep 2019 00:00:00 -0600</pubDate>
+				<link>http://localhost:4000/2019/09/30/ismb2020.html</link>
+				<guid isPermaLink="true">http://localhost:4000/2019/09/30/ismb2020.html</guid>
+			</item>
+		
+			<item>
+				<title>Introduction to Competitive Programming</title>
+        <description>&lt;p&gt;Here is the intro. Check back soon.&lt;/p&gt;
+</description>
+				<pubDate>Mon, 30 Sep 2019 00:00:00 -0600</pubDate>
+				<link>http://localhost:4000/2019/09/30/icpc-general.html</link>
+				<guid isPermaLink="true">http://localhost:4000/2019/09/30/icpc-general.html</guid>
+			</item>
+		
+			<item>
+				<title>Group meeting includes Nathan's presentation and Ashis's presentation.</title>
+        <description>&lt;p&gt;More description or related materials will be posted here…&lt;/p&gt;
+</description>
+				<pubDate>Tue, 24 Sep 2019 00:00:00 -0600</pubDate>
+				<link>http://localhost:4000/2019/09/24/group-meeting.html</link>
+				<guid isPermaLink="true">http://localhost:4000/2019/09/24/group-meeting.html</guid>
+			</item>
+		
+			<item>
+				<title>Group meeting includes Javier's presentation and Jian's presentation.</title>
+        <description>&lt;p&gt;More description or related materials will be posted here…&lt;/p&gt;
+</description>
+				<pubDate>Tue, 17 Sep 2019 00:00:00 -0600</pubDate>
+				<link>http://localhost:4000/2019/09/17/group-meeting.html</link>
+				<guid isPermaLink="true">http://localhost:4000/2019/09/17/group-meeting.html</guid>
+			</item>
+		
+	</channel>
+</rss>
