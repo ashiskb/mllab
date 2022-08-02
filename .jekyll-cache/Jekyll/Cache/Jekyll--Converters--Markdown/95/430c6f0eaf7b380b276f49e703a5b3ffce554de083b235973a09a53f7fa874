@@ -1,0 +1,21 @@
+I"T
+<p><img width="300" src="/images/research/texanasd.png" data-action="zoom" />
+<strong>Abstract</strong>
+Autism Spectrum Disorder (ASD) is an extreme neurodevelopmental disease affecting 1 in every 59 children in the United States, and approximately 1\% of US population. The clinical traits of the disorder include noticeable deficits in social interactions, language development and in many cases very narrow and repetitive interests and behaviors. ASD is highly heritable genetic disease, but the known causes including the  biomarkers associated with ASD form only the tip of the iceberg. Over the past decade extensive research on exome sequences revealed only about one hundred genetic biomarkers with very high confidence. Number of putative ASD causing genes is rapidly growing with the advent of new technologies while researchers are struggling now to assess which genes are the true causing genes. Manual curation of each of the long list of genes is a cumbersome process that requires huge amount of expert work-hours, and is therefore expensive. An <em>in silico</em> prediction method can assist the human experts to check only a short-list of genes that were filtered through a machine learning system. Most of the existing ASD gene prediction algorithms involve high-performance computing platform to analyze large-scale genetic data which is counter-intuitive to the actual benefit of using an <em>in silico</em> method in the first place. We propose TexAnASD, a text analytics based ASD gene prediction algorithm that only utilizes what we know about each gene that we learn from published literatures. The proposed method outperforms most of the state-of-the-art ASD associated gene prediction methods. Moreover, the method offers an inexpensive model than those of the other competing solutions in terms of computational complexity and running time. All source codes, dataset, predictions and functional insights are available here.</p>
+
+<p><strong>Source Codes</strong></p>
+<ul>
+  <li>Github link to the project codes <a href="https://github.com/jpastorino/TexAnASD"> https://github.com/jpastorino/TexAnASD</a></li>
+</ul>
+
+<p><strong>Collaborators</strong></p>
+<ul>
+  <li>Javier Pastorino</li>
+  <li>Ashis Kumer Biswas</li>
+</ul>
+
+<p><strong>News / Achievements</strong></p>
+<ul>
+  <li><strong>IEEE BIBM 2019</strong> - accepted at the workshop on Machine Learning and Artificial Intelligence in Bioinformatics and Medical Informatics in the IEEE Bioinformatics and Biomedicine conference.  (San Diego, CA, USA, November 18 - 21, 2019). <a href="https://ieeebibm.org/BIBM2019/index.html">Details of the venue</a></li>
+</ul>
+:ET
