@@ -82,3 +82,7 @@ For lab position, you can choose position from 4 classes including `postdoc`, `g
 ## Add new publications
 
 All publications from the lab are located in `publications.md`. Please upload new publication on your own!
+
+## Acknowledgements
+
+Thanks to Prof. Konrad Kording for the [Jekyll site template](http://kordinglab.com).
