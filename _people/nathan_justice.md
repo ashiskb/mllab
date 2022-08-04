@@ -1,6 +1,6 @@
 ---
 name: Nathan Justice 
-position: msstudent
+position: alumni
 avatar: noimage.png
 twitter:
 joined: 2019

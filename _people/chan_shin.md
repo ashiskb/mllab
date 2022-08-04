@@ -1,6 +1,6 @@
 ---
 name: Chan Shin 
-position: ugradstudent
+position: alumni
 avatar: noimage.png
 twitter:
 joined: 2019

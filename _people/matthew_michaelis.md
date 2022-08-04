@@ -1,6 +1,6 @@
 ---
 name: Matthew Michaelis 
-position: phdstudent
+position: msstudent
 avatar: noimage.png
 twitter:
 joined: 2019

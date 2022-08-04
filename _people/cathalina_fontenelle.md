@@ -1,6 +1,6 @@
 ---
 name: Cathalina Fontenelle
-position: phdstudent
+position: alumni
 avatar: noimage.png
 twitter:
 joined: 2019

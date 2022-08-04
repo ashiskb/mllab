@@ -1,6 +1,6 @@
 ---
 name: Jian Peng 
-position: msstudent
+position: alumni
 avatar: jian-peng2019.png
 twitter:
 joined: 2018

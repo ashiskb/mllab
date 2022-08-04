@@ -27,7 +27,7 @@ permalink: /resources/
     {% if post.categories contains type %}
 	{% if type == 'deadlines' %}
 <div class="list-item">
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTjoxQGOlzWsEO3ZRW_dyo1o0RZtHRKyhgwELN_bL11neZqnOIUS3Ok6J9jiVgPoa9JjRVB1XAJ67gv/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="1024" height="400"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTjoxQGOlzWsEO3ZRW_dyo1o0RZtHRKyhgwELN_bL11neZqnOIUS3Ok6J9jiVgPoa9JjRVB1XAJ67gv/pubhtml?widget=true&amp;headers=false" width="1024" height="400"></iframe>
 
 	{% else %}	
     <div class="list-item">

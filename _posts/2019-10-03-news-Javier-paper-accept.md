@@ -1,5 +1,5 @@
 ---
-title: 1 paper gets accepted at the IEEE BIBM 2019.
+title: 1 paper gets accepted at the IEEE BIBM (2019-10-03)
 categories: news 
 ---
 

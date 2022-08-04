@@ -1,0 +1,21 @@
+I"�<p><img width="300" src="/images/research/Machine-in-the-Loop-2021.png" data-action="zoom" />
+<strong>Abstract</strong>
+We introduce a machine-in-the-loop pipeline that aims to address root causes of unwanted bias in natural language based supervised machine learning tasks in the education domain. Learning from the experiences of students is foundational for education researchers, and academic administrators. 21st-century skills learned from experience are becoming a core part of college and career readiness as well as the hiring process in the new knowledge economy. Minoritized students demonstrate these skills in their daily lives, but documenting, assessing, and validating these skills is a huge problem for educational institutions. As an equity focused online platform, LivedX translates minoritized students’ lived experiences into the 21st century skills, issues micro-credentials, and creates personal 21st century skills portfolio. To automate the micro credential mining from the natural language texts received from the students’ submitted essays, we employed a bag-of-word model to construct a multi-output classifier. Despite our goal, our model initially exacerbated disparate impact on minoritized students. We used a machine-in-the-loop model development pipeline to address the problem and refine the aforementioned model to ensure fairness in its prediction.</p>
+
+<p><strong>Source Codes</strong></p>
+<ul>
+  <li>Not yet published</li>
+</ul>
+
+<p><strong>Collaborators</strong></p>
+<ul>
+  <li>Ashis Kumer Biswas</li>
+  <li>Justin Barber</li>
+  <li>Geeta Verma</li>
+</ul>
+
+<p><strong>News / Achievements</strong></p>
+<ul>
+  <li><strong>HCAI@NeurIPS</strong> - Accepted and presented in the the Human Centered AI workshop at the 35th Conference on Neural Information Processing Systems (NeurIPS), Dec 13th 2021. <a href="https://sites.google.com/view/hcai-human-centered-ai-neurips/home">Details of the venue</a>.</li>
+</ul>
+:ET

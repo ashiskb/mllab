@@ -1,6 +1,6 @@
 ---
 name: Nishal Kallupalle 
-position: ugradstudent
+position: alumni
 avatar: nishal2019.png
 twitter:
 joined: 2019

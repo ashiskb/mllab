@@ -53,3 +53,6 @@ permalink: /people/
 | Who are they | When were they here | Where they went |
 | :------------- |:-------------| :-----------|
 | Mohammed Mahdi | MS Student (2018) | Research Scientist at the Ministry of Education, Iraq
+| Nathan Justice | MS Student (2020) | Amazon
+| Zhelin Yu | MS Student (2020) | Oracle
+| Jian Peng | MS Student (2019) | InHouse Orders

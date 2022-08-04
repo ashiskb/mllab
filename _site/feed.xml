@@ -6,7 +6,79 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>1 paper gets accepted at the IEEE BIBM 2019.</title>
+				<title>1 paper gets accepted at the ACM BCB (2022-06-23)</title>
+        <description>&lt;p&gt;Congratulations @javierpastorino! His paper titled: “Data adequacy bias impact in a data-blinded semi-supervised GAN for privacy-aware COVID-19 chest X-ray classification” got accepted at the ACM BCB 2022 Conference as a full paper. Here is the &lt;a href=&quot;https://acm-bcb.org/&quot;&gt;link to the paper&lt;/a&gt;.&lt;/p&gt;
+</description>
+				<pubDate>Thu, 23 Jun 2022 00:00:00 -0600</pubDate>
+				<link>http://localhost:4000/2022/06/23/news-datablind-bcb.html</link>
+				<guid isPermaLink="true">http://localhost:4000/2022/06/23/news-datablind-bcb.html</guid>
+			</item>
+		
+			<item>
+				<title>1 paper gets accepted at the ICMLA 2022 conference (2022-01-15)</title>
+        <description>&lt;p&gt;Congratulations to Malgorzta! Her paper titled “Trusted Neural Network (TNN); Reversibility in Neural Networks for Inference Integrity Verification” is accepted at the International Conference on Machine Learning 2022. Details can be found &lt;a href=&quot;https://waset.org/machine-learning-and-applications-conference-in-april-2022-in-boston&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+				<pubDate>Sat, 15 Jan 2022 00:00:00 -0700</pubDate>
+				<link>http://localhost:4000/2022/01/15/news-tnn-paper.html</link>
+				<guid isPermaLink="true">http://localhost:4000/2022/01/15/news-tnn-paper.html</guid>
+			</item>
+		
+			<item>
+				<title>1 paper gets accepted at the ACM BCB (2021-11-02)</title>
+        <description>&lt;p&gt;Congratulations @javierpastorino! His paper titled: “Data-Blind ML: Building privacy-aware machine learnning models without direct data access.” got accepted at the IEEE AIKE 2021 conference as short paper. Here is the &lt;a href=&quot;https://ieeexplore.ieee.org/abstract/document/9723670&quot;&gt;link to the paper&lt;/a&gt;.&lt;/p&gt;
+</description>
+				<pubDate>Tue, 02 Nov 2021 00:00:00 -0600</pubDate>
+				<link>http://localhost:4000/2021/11/02/news-datablind-aike.html</link>
+				<guid isPermaLink="true">http://localhost:4000/2021/11/02/news-datablind-aike.html</guid>
+			</item>
+		
+			<item>
+				<title>1 paper gets accepted at the HCAI@NeurIPS conference (2021-10-15)</title>
+        <description>&lt;p&gt;The paper titled “Improving Ethical Outcomes with Machine-in-the-Loop: Broadening Human Understanding of Data Annotations” is accepted at the Human Centered AI workshop in the NeurIPS conference. Details can be found &lt;a href=&quot;https://sites.google.com/view/hcai-human-centered-ai-neurips/home&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+				<pubDate>Fri, 15 Oct 2021 00:00:00 -0600</pubDate>
+				<link>http://localhost:4000/2021/10/15/news-hcai-neurips.html</link>
+				<guid isPermaLink="true">http://localhost:4000/2021/10/15/news-hcai-neurips.html</guid>
+			</item>
+		
+			<item>
+				<title>Received CRC Fellowship 21/22 award</title>
+        <description>&lt;p&gt;Dr. Biswas and Dr. Verma (from SEHD) were awarded the CRC Fellowship 2021/2022 for the proposal: “Pedagogical intervention recommender sytem (TABY 2.0): Examining STEM majors’ attrition usign machine common sense reasoning in online learning environments” in the amount of $10,000.&lt;/p&gt;
+</description>
+				<pubDate>Thu, 02 Sep 2021 00:00:00 -0600</pubDate>
+				<link>http://localhost:4000/2021/09/02/news-CRC-award.html</link>
+				<guid isPermaLink="true">http://localhost:4000/2021/09/02/news-CRC-award.html</guid>
+			</item>
+		
+			<item>
+				<title>A journal article is just published in MLWA (2021-07-22)</title>
+        <description>&lt;p&gt;Congratulations Jian and Madhuri! Their paper titled “Efficacy of novel Summation-based Synergetic Artificial Neural Network in ADHD diagnosis” is accepted to publish with reproducibility badge at the Elsevier Machine Learning with Application journal (MLWA), . Details can be found &lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S2666827021000608&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+				<pubDate>Thu, 22 Jul 2021 00:00:00 -0600</pubDate>
+				<link>http://localhost:4000/2021/07/22/news-mlwa-paper.html</link>
+				<guid isPermaLink="true">http://localhost:4000/2021/07/22/news-mlwa-paper.html</guid>
+			</item>
+		
+			<item>
+				<title>1 paper gets accepted at the IEEE AIKE (2020-11-16)</title>
+        <description>&lt;p&gt;Congratulations @javierpastorino! His paper titled: “Hey ML, what can you do for me?” got accepted at the IEEE AIKE Conference as a short paper. Here is the &lt;a href=&quot;https://ieeexplore.ieee.org/abstract/document/9355481&quot;&gt;link to the paper&lt;/a&gt;.&lt;/p&gt;
+</description>
+				<pubDate>Mon, 16 Nov 2020 00:00:00 -0700</pubDate>
+				<link>http://localhost:4000/2020/11/16/news-heyml-aike.html</link>
+				<guid isPermaLink="true">http://localhost:4000/2020/11/16/news-heyml-aike.html</guid>
+			</item>
+		
+			<item>
+				<title>Received CRC Fellowship 20/21 award</title>
+        <description>&lt;p&gt;Dr. Biswas and Dr. Verma (from SEHD) were awarded the CRC Fellowship 2020/2021 for the proposal: “Creating a pedagogical toolkit for remote teaching Leveraging machine learning on student generated audio and visual data” in the amount of $10,000.&lt;/p&gt;
+</description>
+				<pubDate>Sat, 29 Aug 2020 00:00:00 -0600</pubDate>
+				<link>http://localhost:4000/2020/08/29/news-CRC-award.html</link>
+				<guid isPermaLink="true">http://localhost:4000/2020/08/29/news-CRC-award.html</guid>
+			</item>
+		
+			<item>
+				<title>1 paper gets accepted at the IEEE BIBM (2019-10-03)</title>
         <description>&lt;p&gt;Congratulations @javierpastorino for the paper accepted at the Machine Learning and Artificial Intelligence in Bioinformatics and Medical Informatics Workshop at the IEEE BIBM 2019 conference which will be hosted in San Diego! Here is the &lt;a href=&quot;http://scm.ulster.ac.uk/~e10267487/MABM2019/index.html&quot;&gt;Workshop link&lt;/a&gt;.&lt;/p&gt;
 </description>
 				<pubDate>Thu, 03 Oct 2019 00:00:00 -0600</pubDate>
