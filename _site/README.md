@@ -124,34 +124,29 @@ Thanks to Prof. Konrad Kording for the [Jekyll site template](http://kordinglab.
     ```
     * *Step 3*: Add `_include/footer.html` file designing how you want your footer to look like:
     ```html
-    <footer class="site-footer h-card" style="position:fixed;padding:10px 10px 0px 10px;bottom:0;width:100%;height:40px;">
-    <data class="u-url" href="{{ "/" | relative_url }}"></data>
-  
-    <div class="wrapper">
-  
-      <div class="footer-col-wrapper">
-        <div class="footer-col">
-        {%- if site.author %}
-          <ul class="contact-list">
-            {% if site.author.name -%}
-              <li class="p-name">{{ site.author.name | escape }}</li>
-            {% endif -%}
-            {% if site.author.email -%}
-              <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-            {%- endif %}
-          </ul>
-        {%- endif %}
-        </div>
-        <hr style="width:10%;margin:auto;margin-left:0;">
-        <div class="footer-col">
-            <!-- <hr style="width:10%;margin:auto;align:left;size:10;"> -->
-            <p style="text-align:left;font-size:75%">This page was last modified at {{ page.last_modified_at | date: '%-d %B %Y %T%:z' | escape }}</p>
-        </div>
-      </div>
-  
-    </div>
-  
-  </footer>
+        <footer class="site-footer h-card" style="position:fixed;padding:10px 10px 0px 10px;bottom:0;width:100%;height:40px;">
+          <data class="u-url" href="{{ "/" | relative_url }}"></data>
+          <div class="wrapper">
+            <div class="footer-col-wrapper">
+              <div class="footer-col">
+              {%- if site.author %}
+                <ul class="contact-list">
+                  {% if site.author.name -%}
+                    <li class="p-name">{{ site.author.name | escape }}</li>
+                  {% endif -%}
+                  {% if site.author.email -%}
+                    <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+                  {%- endif %}
+                </ul>
+              {%- endif %}
+              </div>
+              <hr style="width:10%;margin:auto;margin-left:0;">
+              <div class="footer-col">
+                  <p style="text-align:left;font-size:75%">This page was last modified at {{ page.last_modified_at | date: '%-d %B %Y %T%:z' | escape }}</p>
+              </div>
+            </div>
+          </div>
+        </footer>
     ```
     * *Step 4*: Modify the `_layouts/default.html` file to include the `_includes/footer.html` file so that it gets included in all Jekyll pages:
   
