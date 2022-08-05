@@ -68,21 +68,100 @@ You can add yourself to the page in `_people` folder just create file name `<fir
 
 ```
 ---
-name: Ashis Biswas
-position: assistant professor
-avatar: ashiskb.jpg
-twitter:
-joined: 2017
+name: Ashis Kumer Biswas 
+position: pi
+avatar: ashis_biswas1.jpg
+twitter: mlcse_cudenver
 ---
 ```
 
 If you don't have information, just leave it blank. The avatar will bring photo from `images/people` folder and display it on people page. 
-For lab position, you can choose position from 4 classes including `postdoc`, `gradstudent`, `visiting`, `others` (so called Honorary members). Position will put you into section that you choose.
+For lab position, you can choose position from 8 classes including `pi`, `msstudent`, `phdstudent`, `postdoc`,`alumni`, `ugradstudent`, `visiting`, annd `others` (i.e, Principal Investigator, MS student, PhD student, Post Doc, Alumni, Undergraduate Student, Visting Scientist, and Others respectively). Position will put you into section that you choose.
 
 ## Add new publications
 
-All publications from the lab are located in `publications.md`. Please upload new publication on your own!
+All publications from the lab are located in `research.md`. Please upload information about your new publication in the `_research/` directory, in the format `yyyy_publisher_lastname.md`. Each of the `*.md` file will at least contain a header as below:
+
+```
+---
+title: TexAnASD - Text Analytics for ASD Risk Gene Predictions 
+category: reliability
+photo: texanasd.png
+year: 2019
+publisher: IEEE BIBM
+---
+```
+
+Then, you write detail information of this publication, including abstract, codes, collaborators, where published, etc. Please note this particular commit only support 6 research categories in the `category` field when you load the `research.md` page: `fairness`,`inclusiveness`, `reliability`, `explainability`, `privacy`, `security`, `accountability`. If you want to change these, you need to work in the `research.md` file.
+
 
 ## Acknowledgements
 
 Thanks to Prof. Konrad Kording for the [Jekyll site template](http://kordinglab.com).
+
+## Frequently Asked Questions
+* How can I add something like `This page was last modified at xxx` at the footer of all Jekyll pages?
+  * **Fix**: 
+    * *Step 1*: Please make sure to install the plugin with `gem` before listing the plugin below at the command line at the current working directory: `gem install jekyll-last-modified-at`
+    * *Step 2*: List the plugin in the `Gemfile` in the following group:
+  
+    ```bash
+    group :jekyll_plugins do
+      gem "jekyll-last-modified-at"
+    end
+    ```
+    * *Step 3*: Also, add the following configurations in the `_config.yml` file:
+    ```bash
+    plugins:
+      - jekyll-last-modified-at
+
+    # Enable safe mode
+    safe: true
+
+    # Whitelist plugins under safe mode.
+    whitelist:
+      - jekyll-last-modified-at
+    ```
+    * *Step 3*: Add `_include/footer.html` file designing how you want your footer to look like:
+    ```html
+    <footer class="site-footer h-card" style="position:fixed;padding:10px 10px 0px 10px;bottom:0;width:100%;height:40px;">
+    <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  
+    <div class="wrapper">
+  
+      <div class="footer-col-wrapper">
+        <div class="footer-col">
+        {%- if site.author %}
+          <ul class="contact-list">
+            {% if site.author.name -%}
+              <li class="p-name">{{ site.author.name | escape }}</li>
+            {% endif -%}
+            {% if site.author.email -%}
+              <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+            {%- endif %}
+          </ul>
+        {%- endif %}
+        </div>
+        <hr style="width:10%;margin:auto;margin-left:0;">
+        <div class="footer-col">
+            <!-- <hr style="width:10%;margin:auto;align:left;size:10;"> -->
+            <p style="text-align:left;font-size:75%">This page was last modified at {{ page.last_modified_at | date: '%-d %B %Y %T%:z' | escape }}</p>
+        </div>
+      </div>
+  
+    </div>
+  
+  </footer>
+    ```
+    * *Step 4*: Modify the `_layouts/default.html` file to include the `_includes/footer.html` file so that it gets included in all Jekyll pages:
+  
+    ```html
+        ...
+        ...
+        ...
+        {%- include footer.html -%}
+      </body>
+    </html>
+    ```
+    * *Step 5*: Done. The plugin `jekyll-last-modified-at` determines a page's last modified date by checking the last Git `commit` date of the source files. In the event Git is not available, the file's `mtime` is used.
+ 

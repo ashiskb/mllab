@@ -1,7 +1,7 @@
 # Basic
 name:               "ML lab @ CU Denver"
-title:              "as called as Machine Learning Lab"
-description:        "this is a page for Machine Learning lab based in Computer Science and Engineering, University of Colorado Denver."
+title:              "Machine Learning Lab"
+description:        ""
 
 
 # URL
@@ -73,3 +73,21 @@ collections:
     output: true
     permalink: /research/:title/index.html
 
+#Please make sure to install the plugin with gem before listing below
+#$ gem install jekyll-last-modified-at
+#Also, list the plugin in the Gemfile in the following group:
+#group :jekyll_plugins do
+#  gem "jekyll-last-modified-at"
+#end
+#
+plugins:
+  - jekyll-last-modified-at
+
+# Enable safe mode
+safe: true
+
+# Whitelist plugins under safe mode.
+# Note that `some-other-jekyll-plugin` is not listed here. Therefore,
+# it will not be loaded under safe mode.
+whitelist:
+  - jekyll-last-modified-at
