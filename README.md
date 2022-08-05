@@ -1,7 +1,7 @@
 # Machine Learning (ML) Lab page
 
 
-This is repository for [ML Lab page](http://ml.cse.ucdenver.edu/). We use Jekyll to run our Github page. We are welcome for other people to contribute to our site not just lab members. Feel free to fork and pull-request!
+This is repository for [ML Lab page](http://ml.cse.ucdenver.edu/). We use Jekyll to design and build our web pages. We are welcome for other people to contribute to our site not just lab members. Feel free to fork and pull-request!
 
 
 ## Run the page locally
