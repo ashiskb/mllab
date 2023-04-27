@@ -1,7 +1,7 @@
 ---
 name: Majed Balkheer
 position: phdstudent
-avatar: noimage.png
+avatar: majed-balkheer-2019.jpg
 twitter:
 joined: 2020
 ---
@@ -10,15 +10,13 @@ joined: 2020
 
 ### Contact
 
-Email: `abc@ucdenver.edu`<br>
+Email: `majed.balkheer@ucdenver.edu`<br>
 
-Office Address: <br>
+Office Address: 1380 Lawrence Street Center, LSC-822<br>
 
 ### About
-A bit about ...
+Majed Balkheer received the M.Sc. degree from the Computer Science Department, College of Engineering and Applied Sciences, University of Colorado, Denver, in 2017. He is currently pursuing the Ph.D. degree in Computer Science and Information Systems. His research interests include mobile computing, machine learning, pattern recognition, and biometrics.
 
 ### Current Projects
 
-- Project 1 
-- Project 2
-- and so on and so forth
+- Class-weight Classification of Cardiac Arrhythmia Based on a Bias-Free LSTM Networks

@@ -6,6 +6,15 @@
 		<atom:link href="http://ml.cse.ucdenver.edu//feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Javier Pastorino defended his doctoral dissertation</title>
+        <description>&lt;p&gt;Congratulations @javierpastorino for successfully defending his doctoral dissertation on “Training Machine Learning Models on various Oblivious Settings”.&lt;/p&gt;
+</description>
+				<pubDate>Fri, 11 Nov 2022 00:00:00 -0700</pubDate>
+				<link>http://ml.cse.ucdenver.edu//2022/11/11/news-javier-phd-defense.html</link>
+				<guid isPermaLink="true">http://ml.cse.ucdenver.edu//2022/11/11/news-javier-phd-defense.html</guid>
+			</item>
+		
+			<item>
 				<title>1 paper gets accepted at the ACM BCB (2022-06-23)</title>
         <description>&lt;p&gt;Congratulations @javierpastorino! His paper titled: “Data adequacy bias impact in a data-blinded semi-supervised GAN for privacy-aware COVID-19 chest X-ray classification” got accepted at the ACM BCB 2022 Conference as a full paper. Here is the &lt;a href=&quot;https://acm-bcb.org/&quot;&gt;link to the paper&lt;/a&gt;.&lt;/p&gt;
 </description>
