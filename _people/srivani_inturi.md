@@ -15,8 +15,9 @@ Email: `srivani.inturi@ucdenver.edu`<br>
 Office Address: 1380 Lawrence Street, LW-822, Denver, CO 80204<br>
 
 ### About
+I’m Srivani Inturi, and my area of focus is to study algorithms in Deep Learning with the aim of handling big data with self-improving learning and making decisions whenever it detects a change in pattern. I have a strong background in Big Data, Deep Learning, and Data mining. I was curious to learn how artificial intelligence might advance our understanding of our space during my graduation. I significantly contributed to the detection of ionospheric scintillations and the prediction of TEC that influences GPS radio waves to provide users with an alert system. I have a proven track record of publications in IEEE journals and a patent in this area. Having this expertise gives me enthusiasm to work on applied applications of artificial intelligence on ionospheric physics.  
 
-Here is a link to Srivani's  [resume](/files/people/Srivani_Inturi_Resume.pdf)
+Here is a link to my  [resume](/files/people/Srivani_Inturi_Resume.pdf).
 
 ### Current Projects
 - Spatial and Temporal Forecasting of the Upper Atmosphere using Deep-Learning (funded by ORS@CU Denver, (4/23)), co-advisor: Mark Golkowski, Ph.D.
