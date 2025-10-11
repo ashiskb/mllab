@@ -1,7 +1,7 @@
 ---
 name: Howard Holme 
 position: visiting
-avatar: howard-holme2019.jpg
+avatar: howard-holme-2019.jpg
 twitter:
 joined: 2018
 ---

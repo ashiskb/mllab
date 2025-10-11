@@ -1,7 +1,7 @@
 ---
 name: Jian Peng 
 position: alumni
-avatar: jian-peng2019.png
+avatar: jian-peng-2019.png
 twitter:
 joined: 2018
 ---

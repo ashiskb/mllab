@@ -1,13 +1,13 @@
 ---
 name: Ashis Kumer Biswas 
 position: pi
-avatar: ashis_biswas1.jpg
+avatar: ashis-biswas-2022.jpg
 twitter: mlcse_cudenver
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
 
-- _Assistant Professor, Dept of Computer Science and Engineering, University of Colorado Denver_<br>
+- _Associate Professor, Dept of Computer Science and Engineering, University of Colorado Denver_<br>
 
 <i class="fa fa-envelope-o"></i> `ashis.biswas@ucdenver.edu`<br>
 web: [https://cse.ucdenver.edu/~biswasa/](https://cse.ucdenver.edu/~biswasa/)<br>

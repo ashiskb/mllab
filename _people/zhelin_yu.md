@@ -1,7 +1,7 @@
 ---
 name: Zhelin Yu 
 position: alumni
-avatar: zhelin2019.png
+avatar: zhelin-yu-2019.png
 twitter:
 joined: 2019
 ---

@@ -1,6 +1,6 @@
 ---
 name: Malgorzata Schwab 
-position: phdstudent
+position: alumni
 avatar: malgorzata-schwab-womenintechsummit.jpg
 twitter:
 joined: 2018

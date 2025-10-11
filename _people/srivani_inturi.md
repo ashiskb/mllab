@@ -1,7 +1,7 @@
 ---
 name: Srivani Inturi 
-position: msstudent
-avatar: srivani_inturi_2023.jpg
+position: alumni
+avatar: srivani-inturi-2023.jpg
 twitter:
 joined: 2023
 ---

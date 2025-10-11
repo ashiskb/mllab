@@ -1,7 +1,7 @@
 ---
 name: Javier Pastorino
 position: alumni
-avatar: javier2019.png
+avatar: javier-pastorino-2019.png
 twitter:
 joined: 2019
 web: https://www.jpastorino.com/

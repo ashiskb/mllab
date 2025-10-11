@@ -9,25 +9,111 @@ This is repository for [ML Lab page](https://ml.cse.ucdenver.edu/). We use Jekyl
 To run locally, follow instruction [here](https://jekyllrb.com) to install Jekyll then run `jekyll serve` to see in `localhost:4000`. Here is a brief install guidelines.
 
 ### On MacOS
-You must not use the Ruby that comes with the system. Please follow the guidelines [here](https://jekyllrb.com/docs/installation/macos/) to install Ruby using `brew`. Also, make sure your `$PATH` environment variable is set accordingly (in `zsh`) so that newly installed `Ruby` can be recognized. Here are sample `~/.zshrc` entries:
-
+Jekyll/ruby relies on CONFIG["CC"] and CONFIG["CXX"] being set properly. If you notice the following:
 ```zsh
-if [ -d "/usr/local/opt/ruby/bin" ]; then
-  export PATH=/usr/local/opt/ruby/bin:$PATH
-  export PATH=`gem environment gemdir`/bin:$PATH
-fi
-
-export LDFLAGS="-L/usr/local/opt/ruby/lib"
-export CPPFLAGS="-I/usr/local/opt/ruby/include"
+% ruby -rrbconfig -e 'puts RbConfig::CONFIG["CC"]'
+clang
+% ruby -rrbconfig -e 'puts RbConfig::CONFIG["CXX"]'
+false
 ```
 
-Also, make sure to run `ruby -v` command to check if the version matches with your installation. Once installed the `ruby` correctly, run the followng to install `jekyll`:
+It means, `CXX` is not configured. Therefore, `gem install jekyll` would probably fail even with ruby 3.4.1
+
+To address the issue, let’s do the following:
+**Step 1:**  Uninstall rbenv
 
 ```zsh
-gem install jekyll bundler
+% brew uninstall rbenv ruby-build
+% sudo rm -r ~/.rbenv
 ```
 
-When the jekyll is installed successfully, navigate to the project folder (assuming you have jekyll project created already) and run the following to build/serve:
+**Step 2**: Clean out any PATH or source modifications in `.bashrc .bashprofile .zshrc .zprofile`
+
+**Step 3**: Uninstall brew
+
+```zsh
+% /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"
+% sudo rm -r /opt/homebrew/
+```
+
+**Step 4**: Uninstall XCode CLT
+```zsh
+% sudo rm -rf /Library/Developer/CommandLineTools
+```
+
+**Step 5**:  Reinstall XCode CLT
+```zsh
+% sudo xcode-select --install
+% softwareupdate --all --install --force
+```
+
+**Step 6**: Reinstall brew
+```zsh
+% /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+% brew install openssl@3 readline libyaml gmp autoconf
+```
+
+**Step 7**: Make sure it can find CLT and Clang. Also don't install and link llvm, that also showed up during my research
+
+```zsh
+% brew config
+...
+Clang: 17.0.0 build 1700
+...
+CLT: 26.0.0.0.1.1757719676
+Xcode: 26.0.1
+```
+
+**Step 8**: Reinstall rbenv
+```zsh
+% brew install rbenv ruby-build
+% rbenv init
+```
+**Step 9**: Install ruby 3.4.1
+```zsh
+% rbenv install 3.4.1
+% rbenv global 3.4.1
+% which ruby
+/Users/ashis/.rbenv/shims/ruby
+```
+
+**Step 10**:  Confirm it found clang and clang++
+```zsh
+% ruby -rrbconfig -e 'puts RbConfig::CONFIG["CC"]'
+clang
+% ruby -rrbconfig -e 'puts RbConfig::CONFIG["CXX"]'
+clang++
+```
+
+**Step 11**: Finally install eventmachine
+```zsh
+% gem install eventmachine
+```
+
+**Step 12**: Finally install jekyll
+```zsh
+% gem install bundler jekyll
+...
+29 gems installed
+```
+
+
+Also, make sure to run `ruby -v` command to check if the version matches with your installation (i.e., 3.4.1). Once installed the `ruby` correctly, run the followng to install `jekyll`:
+
+
+When the jekyll is installed successfully, navigate to the project folder, the following command options are to be noted:
+* **Create a Gemfile in the root**:. The file should be called `Gemfile` and should not have any extension.
+```zsh
+% bundle init
+```
+You can create a `Gemfile` with Bundler and then add the jekyll gem:
+```zsh
+% bundle add jekyll
+```
+* Bundler installs the gems and creates a `Gemfile.lock` which locks the current gem versions for a future `bundle install`. If you ever want to update your gem versions you can run `bundle update`.
+* When using a Gemfile, you’ll run commands like `jekyll serve` with `bundle exec` prefixed. So the full command is: `bundle exec jekyll serve`
+* Also, to build/compile your project, remove items from `_site/` directory. Then, simply run: `bundle exec jekyll build`
+  - This restricts your Ruby environment to only use gems set in your Gemfile.
 
 ### Build a Jekyll project
 
@@ -76,7 +162,17 @@ twitter: mlcse_cudenver
 ```
 
 If you don't have information, just leave it blank. The avatar will bring photo from `images/people` folder and display it on people page. 
-For lab position, you can choose position from 8 classes including `pi`, `msstudent`, `phdstudent`, `postdoc`,`alumni`, `ugradstudent`, `visiting`, annd `others` (i.e, Principal Investigator, MS student, PhD student, Post Doc, Alumni, Undergraduate Student, Visting Scientist, and Others respectively). Position will put you into section that you choose.
+For lab position, you can choose position from 8 of the following:
+* `pi` : principal investigator
+* `msstudent` : MS Student
+* `phdstudent` : PhD Student
+* `postdoc` : Post-Doc
+* `alumni` : Alumni
+* `ugradstudent` : Undergraduate Student
+* `visiting` : Visiting Scientist
+* `others`: Others 
+
+Position will put you into section that you choose.
 
 ## Add new publications
 
@@ -92,7 +188,7 @@ publisher: IEEE BIBM
 ---
 ```
 
-Then, you write detail information of this publication, including abstract, codes, collaborators, where published, etc. Please note this particular commit only support 6 research categories in the `category` field when you load the `research.md` page: `fairness`,`inclusiveness`, `reliability`, `explainability`, `privacy`, `security`, `accountability`. If you want to change these, you need to work in the `research.md` file.
+Then, you write detail information of this publication, including abstract, codes, collaborators, where published, etc. Please note this particular commit only support 6 research categories in the `category` field when you load the `research.md` page: `fairness`,`inclusiveness`, `reliability`, `explainability`, `privacy`, `security`, `accountability`. If you want to change these, you need to work in the `research.md` file. Be sure to add the new category in the `research_array` variable, then add it in the `if-elsif` block.
 
 
 ## Acknowledgements

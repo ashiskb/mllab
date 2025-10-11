@@ -4,12 +4,14 @@ permalink: /research/
 ---
 
 {% assign research_sorted = site.research | sort: 'year' | reverse %}
-{% assign research_array = "fairness|inclusiveness|reliability|explainability|privacy|security|accountability" | split: "|" %}
+{% assign research_array = "grant|fairness|inclusiveness|reliability|explainability|privacy|security|accountability" | split: "|" %}
 
 <h1>Responsible AI principles drive us</h1>
 {% for item in research_array %}
 <div class="pos_header">
-{% if item == 'fairness' %}
+{% if item == 'grant' %}
+<h3>Funded Research Projects</h3>
+{% elsif item == 'fairness' %}
 <h3>Fairness in AI</h3>
  {% elsif item == 'inclusiveness' %}
 <h3>Inclusive AI system design </h3>

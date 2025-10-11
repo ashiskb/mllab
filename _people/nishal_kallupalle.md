@@ -1,7 +1,7 @@
 ---
 name: Nishal Kallupalle 
 position: alumni
-avatar: nishal2019.png
+avatar: nishal-kallupalle-2019.png
 twitter:
 joined: 2019
 ---
