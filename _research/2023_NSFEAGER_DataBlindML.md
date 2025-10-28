@@ -15,7 +15,7 @@ The project aims to design a distributed machine learning paradigm that introduc
 This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
 
 **Sponsor**
-National Science Foundation [Award Information Link](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2329919&HistoricalAwards=false)
+National Science Foundation [Award (id: 2329919) Information Link](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2329919&HistoricalAwards=false)
 
 **Collaborators**
 - Ashis Kumer Biswas (PI)
@@ -23,13 +23,25 @@ National Science Foundation [Award Information Link](https://www.nsf.gov/awardse
 - Deeptimaan Banerjee (MS Student, CU Denver)
 - Prateek Gothwal (MS Student, CU Denver)
 - Dylan Zelkin (MS Student, CU Denver)
+- Pooja Kulkarni (MS Student, CU Denver),
+- Tarun Sethupath Radha Krishna (MS Student, CU Denver)
 - Justin Quijada Perla (High School Student, Broomfield High School)
 - Ethan Dorman (High School Student, Broomfield High School)
 
+**Tools developed and published**
+* Tool 1: [TABY 3.0: Teaching Assistant Bot for You](https://github.com/ashiskb/TABY.git)
+* Tool 2: [ E-learning Students' Classroom Engagement Assessment tool with Bias Mitigated Multi-task Model](https://github.com/ashiskb/elearning-engagement-study.git)
+* Tool 3: [Expression Classifier with Mixture of Experts: ExpressNet-MoE](https://github.com/DeeptimaanB/ExpressNet-MoE)
+* Tool 4: [Engagement Detection with spatiotemporal cues: ViBED-Net](https://github.com/prateek-gothwal/ViBED-Net)
+
+
 **Presentations and Publications of Research Products**
 
-* *March 2025*:
-* *March 2025*:
-* *October 2024*:
-* *February 2024*: An engagement detection demo (with and without bias mitigation) from this research was presented by 2 high-school seniors, Justin Quijada-Perla and Ethan Dorman who I mentored in Fall’23 and Spring’24 in Boulder Valley School district (BVSD) Regional Science Fair and received good feedbacks from the judges and the attendees. [ Link ]
+* *October 2025*: Deeptimaan Banerjee, Prateek Gothwal, and Ashis Kumer Biswas, ExpressNet-MoE: A Hybrid Deep Neural Network for Emotion Recognition, preprint at arXiv 2025 [[ Link ](https://arxiv.org/abs/2510.13493)], currently under review at Elsevier/MLWA.
+* *October 2025*: Prateek Gothwal, Deeptimaan Banerjee, and Ashis Kumer Biswas, ViBED-Net: Video Based Engagement Detection Network Using Face-Aware and Scene-Aware Spatiotemporal Cues, preprint at arXiv 2025 [ [Link](https://arxiv.org/abs/2510.18016) ], currently under review at Springer/Nature.
+* *October 2025*: Deeptimaan Banerjee, Prateek Gothwal, and Ashis Kumer Biswas, FedEngage: A Federated Learning Based Video Conferencing Systemfor Real-time Student Engagement Tracking. [ [Link](https://olucdenver-my.sharepoint.com/:b:/g/personal/ashis_biswas_cuanschutz_edu/ESmzHwXHN0hGqAVlT107Y6wBcsAxKMyEzHf3Ee1V8Na6zQ?e=4qBhQJ)]
+* *October 2025*: James Thiering, Tarun Sethupat Radha krishna, Dylan Zelkin, and Ashis Kumer Biswas, Automatic Assessment of Students' Classroom Engagement with Bias Mitigated Multi-task Model. [[Link](https://arxiv.org/abs/2510.22057)]
+* *February 2024*: Justin Quijada-Perla, Ethan Dorman, Ashis Kumer Biswas, An engagement detection demo with and without bias mitigation. The research was presented by 2 high-school seniors, Justin Quijada-Perla and Ethan Dorman who I mentored in Fall’23 and Spring’24 in Boulder Valley School district (BVSD) Regional Science Fair and received good feedbacks from the judges and the attendees. [ Link to the presented poster ](https://olucdenver-my.sharepoint.com/:p:/g/personal/ashis_biswas_cuanschutz_edu/EfzpsrP1uZtEg3l0f0mmASYBkpZhJpACE5SzUnn8R7JkqA?e=dEw9xL)
 
+
+-
